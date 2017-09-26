@@ -1,0 +1,42 @@
+html{
+  font-family: "Arial";
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: inline-flex;
+  justify-content: space-between;
+  height: 64px;
+}
+.header .logo{
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.header .logo img{
+  height: 48px;
+}
+.header span{
+  font-size: 28px;
+}
+.header #colmar{
+  font-weight: bold;
+}
+.header #academy{
+  color: gray;
+}
+.header nav{
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+.header ul{
+  display: inline-flex;
+}
+.header li{
+  margin-left: 16px;
+  font-size: 20px;
+}
